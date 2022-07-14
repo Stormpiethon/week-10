@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(90deg, white, #2eacd2);
+}
+
+#data{
+    background: linear-gradient(210deg, white, lightblue);
+}
+
+.button{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 13px;
+}
+
+.button2{
+    background-color: white;
+    width: 250px;
+    height: 45px;
+    border-radius: 13px;
+}
+
+.button3{
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 13px;
+}
