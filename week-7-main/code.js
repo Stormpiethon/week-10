@@ -156,12 +156,15 @@ function start(){
     console.log("start() function started");
     document.getElementById("startButton").disabled = true;
     document.getElementById("stopButton").disabled = false;
+    index = 0;
+    timer = setInterval(updateDisplay, time_interval);
 }
 
 function stop(){
     console.log("stop() function started");
     document.getElementById("stopButton").disabled = true;
     document.getElementById("startButton").disabled = false;
+    clearInterval(timer);
 }
 
 function playStation(){
